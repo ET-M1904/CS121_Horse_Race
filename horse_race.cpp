@@ -46,10 +46,10 @@ void printLane(int hn, int* horses){
 
 bool isWinner(int hn, int* horses){
 	bool result = false;
-	if NUM_HORSE > TRACK_LENGTH{
+	if (NUM_HORSE > TRACK_LENGTH){
 		cout << "This " << horses[hn] << " wins!";
 		bool result = true;
-		return result;
+		return true;
 	}
 }
 
@@ -64,3 +64,11 @@ bool isWinner(int hn, int* horses){
   return resul
  */
 
+
+horse_race.cpp:49:5: error: expected ‘(’ before ‘NUM_HORSE’
+   49 |  if NUM_HORSE > TRACK_LENGTH{
+      |     ^~~~~~~~~
+      |     (
+horse_race.cpp:54:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   54 | }
+      | ^
