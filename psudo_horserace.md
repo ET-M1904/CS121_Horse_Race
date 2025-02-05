@@ -14,6 +14,12 @@ Start a for loop to interate through the array.sentry is i, add one to the i eac
 If the value at i is not a period 
 give the value at i to a period 
 
+/horse_class
+This class will determine the horse's positions and their advancement through the race.
+Determine which of the horses win.
+/race_class
+Gathers an array of horses. Call the class the class to get the amount of horses.
+Determine how many horses. Provide the length of the track. Provide a constructer and add run() to run the program.
 
 /void printLane
 The function printLane will get the horse's number and the arrey of horses
